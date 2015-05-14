@@ -10,8 +10,8 @@
 		73054DF91B043F9500D8279A /* SlideView.h in Headers */ = {isa = PBXBuildFile; fileRef = 73054DF81B043F9500D8279A /* SlideView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73054DFF1B043F9500D8279A /* SlideView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73054DF31B043F9500D8279A /* SlideView.framework */; };
 		73054E061B043F9500D8279A /* SlideViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73054E051B043F9500D8279A /* SlideViewTests.m */; };
-		73054E1B1B04400000D8279A /* MainScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73054E181B04400000D8279A /* MainScrollViewController.h */; };
-		73054E1C1B04400000D8279A /* MainScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73054E191B04400000D8279A /* MainScrollViewController.m */; };
+		73317C871B0447F7007C32B0 /* MainScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73317C851B0447F7007C32B0 /* MainScrollViewController.h */; };
+		73317C881B0447F7007C32B0 /* MainScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73317C861B0447F7007C32B0 /* MainScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +31,8 @@
 		73054DFE1B043F9500D8279A /* SlideViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73054E041B043F9500D8279A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73054E051B043F9500D8279A /* SlideViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideViewTests.m; sourceTree = "<group>"; };
-		73054E181B04400000D8279A /* MainScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScrollViewController.h; sourceTree = "<group>"; };
-		73054E191B04400000D8279A /* MainScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScrollViewController.m; sourceTree = "<group>"; };
+		73317C851B0447F7007C32B0 /* MainScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScrollViewController.h; sourceTree = "<group>"; };
+		73317C861B0447F7007C32B0 /* MainScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +75,8 @@
 		73054DF51B043F9500D8279A /* SlideView */ = {
 			isa = PBXGroup;
 			children = (
+				73317C841B0447F7007C32B0 /* Classes */,
 				73054DF81B043F9500D8279A /* SlideView.h */,
-				73054E1A1B04400000D8279A /* Classes */,
 				73054DF61B043F9500D8279A /* Supporting Files */,
 			);
 			path = SlideView;
@@ -107,15 +107,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		73054E1A1B04400000D8279A /* Classes */ = {
+		73317C841B0447F7007C32B0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				73054E181B04400000D8279A /* MainScrollViewController.h */,
-				73054E191B04400000D8279A /* MainScrollViewController.m */,
+				73317C851B0447F7007C32B0 /* MainScrollViewController.h */,
+				73317C861B0447F7007C32B0 /* MainScrollViewController.m */,
 			);
-			name = Classes;
-			path = ../../Classes;
-			sourceTree = "<group>";
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -125,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73054DF91B043F9500D8279A /* SlideView.h in Headers */,
-				73054E1B1B04400000D8279A /* MainScrollViewController.h in Headers */,
+				73317C871B0447F7007C32B0 /* MainScrollViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73054E1C1B04400000D8279A /* MainScrollViewController.m in Sources */,
+				73317C881B0447F7007C32B0 /* MainScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
