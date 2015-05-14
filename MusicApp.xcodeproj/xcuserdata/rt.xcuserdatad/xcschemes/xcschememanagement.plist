@@ -4,14 +4,29 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MusicApp.xcscheme_^#shared#^_</key>
+		<key>MusicApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SlideView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>73317CE71B044C9E007C32B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>73317CF11B044C9E007C32B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>7481BEF019767FAE00D322BA</key>
 		<dict>
 			<key>primary</key>

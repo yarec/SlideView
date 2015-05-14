@@ -3,7 +3,7 @@
 //  SlideView
 //
 //  Created by r.t on 15/5/14.
-//  Copyright (c) 2015年 r.t. All rights reserved.
+//  Copyright (c) 2015年 chen. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -17,4 +17,4 @@ FOUNDATION_EXPORT const unsigned char SlideViewVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <SlideView/PublicHeader.h>
 
 
-#import "MainScrollViewController.h"
+//#import "MainScrollViewController.h"

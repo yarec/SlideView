@@ -3,7 +3,7 @@
 //  SlideViewTests
 //
 //  Created by r.t on 15/5/14.
-//  Copyright (c) 2015年 r.t. All rights reserved.
+//  Copyright (c) 2015年 chen. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

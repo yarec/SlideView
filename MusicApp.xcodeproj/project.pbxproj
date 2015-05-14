@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73054E221B0441FA00D8279A /* MainScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73054E211B0441FA00D8279A /* MainScrollViewController.m */; };
+		73317CED1B044C9E007C32B0 /* SlideView.h in Headers */ = {isa = PBXBuildFile; fileRef = 73317CEC1B044C9E007C32B0 /* SlideView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73317CF31B044C9E007C32B0 /* SlideView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73317CE81B044C9E007C32B0 /* SlideView.framework */; };
+		73317CFC1B044C9F007C32B0 /* SlideViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73317CFB1B044C9F007C32B0 /* SlideViewTests.m */; };
+		73317CFF1B044C9F007C32B0 /* SlideView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73317CE81B044C9E007C32B0 /* SlideView.framework */; };
+		73317D001B044C9F007C32B0 /* SlideView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 73317CE81B044C9E007C32B0 /* SlideView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		73317D111B044DCF007C32B0 /* MainScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73317D101B044DCF007C32B0 /* MainScrollViewController.m */; };
 		7481BEF519767FAE00D322BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7481BEF419767FAE00D322BA /* Foundation.framework */; };
 		7481BEF719767FAE00D322BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7481BEF619767FAE00D322BA /* CoreGraphics.framework */; };
 		7481BEF919767FAE00D322BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7481BEF819767FAE00D322BA /* UIKit.framework */; };
@@ -28,6 +33,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		73317CF41B044C9E007C32B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7481BEE919767FAE00D322BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73317CE71B044C9E007C32B0;
+			remoteInfo = SlideView;
+		};
+		73317CF61B044C9F007C32B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7481BEE919767FAE00D322BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7481BEF019767FAE00D322BA;
+			remoteInfo = MusicApp;
+		};
+		73317CFD1B044C9F007C32B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7481BEE919767FAE00D322BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73317CE71B044C9E007C32B0;
+			remoteInfo = SlideView;
+		};
 		7481BF1119767FAE00D322BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7481BEE919767FAE00D322BA /* Project object */;
@@ -37,10 +63,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		73317D061B044C9F007C32B0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				73317D001B044C9F007C32B0 /* SlideView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		73054E1D1B04411000D8279A /* SlideView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SlideView.framework; path = "SlideView/build/Debug-iphoneos/SlideView.framework"; sourceTree = "<group>"; };
-		73054E201B0441FA00D8279A /* MainScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScrollViewController.h; sourceTree = "<group>"; };
-		73054E211B0441FA00D8279A /* MainScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScrollViewController.m; sourceTree = "<group>"; };
+		73317CE81B044C9E007C32B0 /* SlideView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlideView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73317CEB1B044C9E007C32B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73317CEC1B044C9E007C32B0 /* SlideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideView.h; sourceTree = "<group>"; };
+		73317CF21B044C9E007C32B0 /* SlideViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73317CFA1B044C9F007C32B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73317CFB1B044C9F007C32B0 /* SlideViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideViewTests.m; sourceTree = "<group>"; };
+		73317D0F1B044DCF007C32B0 /* MainScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScrollViewController.h; sourceTree = "<group>"; };
+		73317D101B044DCF007C32B0 /* MainScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScrollViewController.m; sourceTree = "<group>"; };
 		7481BEF119767FAE00D322BA /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7481BEF419767FAE00D322BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7481BEF619767FAE00D322BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -69,6 +115,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		73317CE41B044C9E007C32B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73317CEF1B044C9E007C32B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73317CF31B044C9E007C32B0 /* SlideView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7481BEEE19767FAE00D322BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,6 +137,7 @@
 				7481BEF719767FAE00D322BA /* CoreGraphics.framework in Frameworks */,
 				7481BEF919767FAE00D322BA /* UIKit.framework in Frameworks */,
 				7481BEF519767FAE00D322BA /* Foundation.framework in Frameworks */,
+				73317CFF1B044C9F007C32B0 /* SlideView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,21 +154,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		73054E1F1B0441FA00D8279A /* Classes */ = {
+		73317CE91B044C9E007C32B0 /* SlideView */ = {
 			isa = PBXGroup;
 			children = (
-				73054E201B0441FA00D8279A /* MainScrollViewController.h */,
-				73054E211B0441FA00D8279A /* MainScrollViewController.m */,
+				73317CEC1B044C9E007C32B0 /* SlideView.h */,
+				73317CEA1B044C9E007C32B0 /* Supporting Files */,
+			);
+			path = SlideView;
+			sourceTree = "<group>";
+		};
+		73317CEA1B044C9E007C32B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73317CEB1B044C9E007C32B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73317CF81B044C9F007C32B0 /* SlideViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				73317CFB1B044C9F007C32B0 /* SlideViewTests.m */,
+				73317CF91B044C9F007C32B0 /* Supporting Files */,
+			);
+			path = SlideViewTests;
+			sourceTree = "<group>";
+		};
+		73317CF91B044C9F007C32B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73317CFA1B044C9F007C32B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73317D0E1B044DCF007C32B0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				73317D0F1B044DCF007C32B0 /* MainScrollViewController.h */,
+				73317D101B044DCF007C32B0 /* MainScrollViewController.m */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		7481BEE819767FAE00D322BA = {
 			isa = PBXGroup;
 			children = (
-				73054E1F1B0441FA00D8279A /* Classes */,
 				7481BEFA19767FAE00D322BA /* MusicApp */,
 				7481BF1319767FAE00D322BA /* MusicAppTests */,
+				73317CE91B044C9E007C32B0 /* SlideView */,
+				73317CF81B044C9F007C32B0 /* SlideViewTests */,
 				7481BEF319767FAE00D322BA /* Frameworks */,
 				7481BEF219767FAE00D322BA /* Products */,
 			);
@@ -117,6 +214,8 @@
 			children = (
 				7481BEF119767FAE00D322BA /* MusicApp.app */,
 				7481BF0C19767FAE00D322BA /* MusicAppTests.xctest */,
+				73317CE81B044C9E007C32B0 /* SlideView.framework */,
+				73317CF21B044C9E007C32B0 /* SlideViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +235,7 @@
 		7481BEFA19767FAE00D322BA /* MusicApp */ = {
 			isa = PBXGroup;
 			children = (
+				73317D0E1B044DCF007C32B0 /* Classes */,
 				74EE5D941976CC1D00A8FC29 /* images */,
 				7481BF0319767FAE00D322BA /* AppDelegate.h */,
 				7481BF0419767FAE00D322BA /* AppDelegate.m */,
@@ -192,7 +292,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		73317CE51B044C9E007C32B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73317CED1B044C9E007C32B0 /* SlideView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		73317CE71B044C9E007C32B0 /* SlideView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73317D051B044C9F007C32B0 /* Build configuration list for PBXNativeTarget "SlideView" */;
+			buildPhases = (
+				73317CE31B044C9E007C32B0 /* Sources */,
+				73317CE41B044C9E007C32B0 /* Frameworks */,
+				73317CE51B044C9E007C32B0 /* Headers */,
+				73317CE61B044C9E007C32B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideView;
+			productName = SlideView;
+			productReference = 73317CE81B044C9E007C32B0 /* SlideView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73317CF11B044C9E007C32B0 /* SlideViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73317D071B044C9F007C32B0 /* Build configuration list for PBXNativeTarget "SlideViewTests" */;
+			buildPhases = (
+				73317CEE1B044C9E007C32B0 /* Sources */,
+				73317CEF1B044C9E007C32B0 /* Frameworks */,
+				73317CF01B044C9E007C32B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73317CF51B044C9E007C32B0 /* PBXTargetDependency */,
+				73317CF71B044C9F007C32B0 /* PBXTargetDependency */,
+			);
+			name = SlideViewTests;
+			productName = SlideViewTests;
+			productReference = 73317CF21B044C9E007C32B0 /* SlideViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		7481BEF019767FAE00D322BA /* MusicApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7481BF1D19767FAE00D322BA /* Build configuration list for PBXNativeTarget "MusicApp" */;
@@ -200,10 +348,12 @@
 				7481BEED19767FAE00D322BA /* Sources */,
 				7481BEEE19767FAE00D322BA /* Frameworks */,
 				7481BEEF19767FAE00D322BA /* Resources */,
+				73317D061B044C9F007C32B0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				73317CFE1B044C9F007C32B0 /* PBXTargetDependency */,
 			);
 			name = MusicApp;
 			productName = MusicApp;
@@ -237,6 +387,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = chen;
 				TargetAttributes = {
+					73317CE71B044C9E007C32B0 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					73317CF11B044C9E007C32B0 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 7481BEF019767FAE00D322BA;
+					};
 					7481BF0B19767FAE00D322BA = {
 						TestTargetID = 7481BEF019767FAE00D322BA;
 					};
@@ -256,11 +413,27 @@
 			targets = (
 				7481BEF019767FAE00D322BA /* MusicApp */,
 				7481BF0B19767FAE00D322BA /* MusicAppTests */,
+				73317CE71B044C9E007C32B0 /* SlideView */,
+				73317CF11B044C9E007C32B0 /* SlideViewTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		73317CE61B044C9E007C32B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73317CF01B044C9E007C32B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7481BEEF19767FAE00D322BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,13 +455,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		73317CE31B044C9E007C32B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73317CEE1B044C9E007C32B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73317CFC1B044C9F007C32B0 /* SlideViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7481BEED19767FAE00D322BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7481BF2B1976802B00D322BA /* SubViewController.m in Sources */,
 				74EE5D9C1976ED9400A8FC29 /* PlayBoxViewController.m in Sources */,
-				73054E221B0441FA00D8279A /* MainScrollViewController.m in Sources */,
+				73317D111B044DCF007C32B0 /* MainScrollViewController.m in Sources */,
 				7481BF281976801F00D322BA /* HomePageVIewController.m in Sources */,
 				7481BF0519767FAE00D322BA /* AppDelegate.m in Sources */,
 				7481BF0119767FAE00D322BA /* main.m in Sources */,
@@ -307,6 +495,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		73317CF51B044C9E007C32B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73317CE71B044C9E007C32B0 /* SlideView */;
+			targetProxy = 73317CF41B044C9E007C32B0 /* PBXContainerItemProxy */;
+		};
+		73317CF71B044C9F007C32B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7481BEF019767FAE00D322BA /* MusicApp */;
+			targetProxy = 73317CF61B044C9F007C32B0 /* PBXContainerItemProxy */;
+		};
+		73317CFE1B044C9F007C32B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73317CE71B044C9E007C32B0 /* SlideView */;
+			targetProxy = 73317CFD1B044C9F007C32B0 /* PBXContainerItemProxy */;
+		};
 		7481BF1219767FAE00D322BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7481BEF019767FAE00D322BA /* MusicApp */;
@@ -334,6 +537,106 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		73317D011B044C9F007C32B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlideView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73317D021B044C9F007C32B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SlideView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73317D031B044C9F007C32B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlideViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicApp.app/MusicApp";
+			};
+			name = Debug;
+		};
+		73317D041B044C9F007C32B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SlideViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicApp.app/MusicApp";
+			};
+			name = Release;
+		};
 		7481BF1B19767FAE00D322BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,6 +720,7 @@
 				GCC_PREFIX_HEADER = "MusicApp/MusicApp-Prefix.pch";
 				INFOPLIST_FILE = "MusicApp/MusicApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = MusicApp;
 				WRAPPER_EXTENSION = app;
 			};
@@ -435,6 +739,7 @@
 				GCC_PREFIX_HEADER = "MusicApp/MusicApp-Prefix.pch";
 				INFOPLIST_FILE = "MusicApp/MusicApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = MusicApp;
 				WRAPPER_EXTENSION = app;
 			};
@@ -483,6 +788,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		73317D051B044C9F007C32B0 /* Build configuration list for PBXNativeTarget "SlideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73317D011B044C9F007C32B0 /* Debug */,
+				73317D021B044C9F007C32B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		73317D071B044C9F007C32B0 /* Build configuration list for PBXNativeTarget "SlideViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73317D031B044C9F007C32B0 /* Debug */,
+				73317D041B044C9F007C32B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		7481BEEC19767FAE00D322BA /* Build configuration list for PBXProject "MusicApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

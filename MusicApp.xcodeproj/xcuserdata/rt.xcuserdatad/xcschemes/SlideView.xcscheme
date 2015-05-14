@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "73054DF21B043F9500D8279A"
+               BlueprintIdentifier = "73317CE71B044C9E007C32B0"
                BuildableName = "SlideView.framework"
                BlueprintName = "SlideView"
-               ReferencedContainer = "container:SlideView.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "73054DFD1B043F9500D8279A"
-               BuildableName = "SlideViewTests.xctest"
-               BlueprintName = "SlideViewTests"
-               ReferencedContainer = "container:SlideView.xcodeproj">
+               ReferencedContainer = "container:MusicApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,26 +28,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "73054DFD1B043F9500D8279A"
-               BuildableName = "SlideViewTests.xctest"
-               BlueprintName = "SlideViewTests"
-               ReferencedContainer = "container:SlideView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "73054DF21B043F9500D8279A"
-            BuildableName = "SlideView.framework"
-            BlueprintName = "SlideView"
-            ReferencedContainer = "container:SlideView.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -75,10 +42,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "73054DF21B043F9500D8279A"
+            BlueprintIdentifier = "73317CE71B044C9E007C32B0"
             BuildableName = "SlideView.framework"
             BlueprintName = "SlideView"
-            ReferencedContainer = "container:SlideView.xcodeproj">
+            ReferencedContainer = "container:MusicApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -93,10 +60,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "73054DF21B043F9500D8279A"
+            BlueprintIdentifier = "73317CE71B044C9E007C32B0"
             BuildableName = "SlideView.framework"
             BlueprintName = "SlideView"
-            ReferencedContainer = "container:SlideView.xcodeproj">
+            ReferencedContainer = "container:MusicApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

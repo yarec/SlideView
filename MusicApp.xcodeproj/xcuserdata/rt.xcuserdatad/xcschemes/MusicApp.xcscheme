@@ -34,6 +34,20 @@
                ReferencedContainer = "container:MusicApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "73317CF11B044C9E007C32B0"
+               BuildableName = "SlideViewTests.xctest"
+               BlueprintName = "SlideViewTests"
+               ReferencedContainer = "container:MusicApp.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +63,16 @@
                BlueprintIdentifier = "7481BF0B19767FAE00D322BA"
                BuildableName = "MusicAppTests.xctest"
                BlueprintName = "MusicAppTests"
+               ReferencedContainer = "container:MusicApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "73317CF11B044C9E007C32B0"
+               BuildableName = "SlideViewTests.xctest"
+               BlueprintName = "SlideViewTests"
                ReferencedContainer = "container:MusicApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
