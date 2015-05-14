@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73054E221B0441FA00D8279A /* MainScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73054E211B0441FA00D8279A /* MainScrollViewController.m */; };
 		7481BEF519767FAE00D322BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7481BEF419767FAE00D322BA /* Foundation.framework */; };
 		7481BEF719767FAE00D322BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7481BEF619767FAE00D322BA /* CoreGraphics.framework */; };
 		7481BEF919767FAE00D322BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7481BEF819767FAE00D322BA /* UIKit.framework */; };
@@ -19,7 +20,6 @@
 		7481BF1019767FAE00D322BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7481BEF819767FAE00D322BA /* UIKit.framework */; };
 		7481BF1819767FAE00D322BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7481BF1619767FAE00D322BA /* InfoPlist.strings */; };
 		7481BF1A19767FAE00D322BA /* MusicAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7481BF1919767FAE00D322BA /* MusicAppTests.m */; };
-		7481BF251976801900D322BA /* MainScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7481BF241976801900D322BA /* MainScrollViewController.m */; };
 		7481BF281976801F00D322BA /* HomePageVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7481BF271976801F00D322BA /* HomePageVIewController.m */; };
 		7481BF2B1976802B00D322BA /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7481BF2A1976802B00D322BA /* SubViewController.m */; };
 		74EE5D961976CC1D00A8FC29 /* skinBackImage_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74EE5D951976CC1D00A8FC29 /* skinBackImage_1.jpg */; };
@@ -38,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73054E1D1B04411000D8279A /* SlideView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SlideView.framework; path = "SlideView/build/Debug-iphoneos/SlideView.framework"; sourceTree = "<group>"; };
+		73054E201B0441FA00D8279A /* MainScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScrollViewController.h; sourceTree = "<group>"; };
+		73054E211B0441FA00D8279A /* MainScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScrollViewController.m; sourceTree = "<group>"; };
 		7481BEF119767FAE00D322BA /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7481BEF419767FAE00D322BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7481BEF619767FAE00D322BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,8 +57,6 @@
 		7481BF1519767FAE00D322BA /* MusicAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicAppTests-Info.plist"; sourceTree = "<group>"; };
 		7481BF1719767FAE00D322BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7481BF1919767FAE00D322BA /* MusicAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicAppTests.m; sourceTree = "<group>"; };
-		7481BF231976801900D322BA /* MainScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScrollViewController.h; sourceTree = "<group>"; };
-		7481BF241976801900D322BA /* MainScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScrollViewController.m; sourceTree = "<group>"; };
 		7481BF261976801F00D322BA /* HomePageVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageVIewController.h; sourceTree = "<group>"; };
 		7481BF271976801F00D322BA /* HomePageVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageVIewController.m; sourceTree = "<group>"; };
 		7481BF291976802B00D322BA /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
@@ -91,9 +92,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73054E1F1B0441FA00D8279A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				73054E201B0441FA00D8279A /* MainScrollViewController.h */,
+				73054E211B0441FA00D8279A /* MainScrollViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7481BEE819767FAE00D322BA = {
 			isa = PBXGroup;
 			children = (
+				73054E1F1B0441FA00D8279A /* Classes */,
 				7481BEFA19767FAE00D322BA /* MusicApp */,
 				7481BF1319767FAE00D322BA /* MusicAppTests */,
 				7481BEF319767FAE00D322BA /* Frameworks */,
@@ -113,6 +124,7 @@
 		7481BEF319767FAE00D322BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				73054E1D1B04411000D8279A /* SlideView.framework */,
 				7481BEF419767FAE00D322BA /* Foundation.framework */,
 				7481BEF619767FAE00D322BA /* CoreGraphics.framework */,
 				7481BEF819767FAE00D322BA /* UIKit.framework */,
@@ -127,8 +139,6 @@
 				74EE5D941976CC1D00A8FC29 /* images */,
 				7481BF0319767FAE00D322BA /* AppDelegate.h */,
 				7481BF0419767FAE00D322BA /* AppDelegate.m */,
-				7481BF231976801900D322BA /* MainScrollViewController.h */,
-				7481BF241976801900D322BA /* MainScrollViewController.m */,
 				7481BF261976801F00D322BA /* HomePageVIewController.h */,
 				7481BF271976801F00D322BA /* HomePageVIewController.m */,
 				74EE5D971976D2CC00A8FC29 /* SettingViewController.h */,
@@ -278,10 +288,10 @@
 			files = (
 				7481BF2B1976802B00D322BA /* SubViewController.m in Sources */,
 				74EE5D9C1976ED9400A8FC29 /* PlayBoxViewController.m in Sources */,
+				73054E221B0441FA00D8279A /* MainScrollViewController.m in Sources */,
 				7481BF281976801F00D322BA /* HomePageVIewController.m in Sources */,
 				7481BF0519767FAE00D322BA /* AppDelegate.m in Sources */,
 				7481BF0119767FAE00D322BA /* main.m in Sources */,
-				7481BF251976801900D322BA /* MainScrollViewController.m in Sources */,
 				74EE5D991976D2CC00A8FC29 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +409,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SlideView/build/Debug-iphoneos",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicApp/MusicApp-Prefix.pch";
 				INFOPLIST_FILE = "MusicApp/MusicApp-Info.plist";
@@ -413,6 +427,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SlideView/build/Debug-iphoneos",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicApp/MusicApp-Prefix.pch";
 				INFOPLIST_FILE = "MusicApp/MusicApp-Info.plist";
