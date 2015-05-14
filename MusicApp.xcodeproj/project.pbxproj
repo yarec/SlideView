@@ -13,7 +13,7 @@
 		73317CFF1B044C9F007C32B0 /* SlideView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73317CE81B044C9E007C32B0 /* SlideView.framework */; };
 		73317D001B044C9F007C32B0 /* SlideView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 73317CE81B044C9E007C32B0 /* SlideView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		73317D111B044DCF007C32B0 /* MainScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73317D101B044DCF007C32B0 /* MainScrollViewController.m */; };
-		73317D151B044FAB007C32B0 /* MainScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73317D0F1B044DCF007C32B0 /* MainScrollViewController.h */; };
+		73317D151B044FAB007C32B0 /* MainScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73317D0F1B044DCF007C32B0 /* MainScrollViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7481BEF519767FAE00D322BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7481BEF419767FAE00D322BA /* Foundation.framework */; };
 		7481BEF719767FAE00D322BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7481BEF619767FAE00D322BA /* CoreGraphics.framework */; };
 		7481BEF919767FAE00D322BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7481BEF819767FAE00D322BA /* UIKit.framework */; };
