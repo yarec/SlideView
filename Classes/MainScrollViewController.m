@@ -129,6 +129,14 @@ static MainScrollViewController *MVC;
     }
 }
 
+- (void)showView:(int) idx
+{
+    CGFloat width = _scrollView.frame.size.width;
+    CGFloat height = _scrollView.frame.size.height;
+    CGRect rect = CGRectMake(idx * width, 0, width, height);
+    [_scrollView scrollRectToVisible:rect animated:YES];
+}
+
 #pragma mark - scroll view delegate
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView

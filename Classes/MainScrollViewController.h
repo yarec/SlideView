@@ -36,4 +36,6 @@
 //返回上一个view
 - (void)backView:(UIViewController *)vc;
 
+- (void)showView:(int) idx;
+
 @end

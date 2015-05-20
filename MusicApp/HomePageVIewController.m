@@ -127,6 +127,18 @@
     singleTapRecognizer.numberOfTapsRequired = 1;
     [singleTapRecognizer addTarget:self action:@selector(showPlayBox:)];
     [_musicBottomV addGestureRecognizer:singleTapRecognizer];
+    
+    
+    UIButton *btnl=[UIButton buttonWithType:UIButtonTypeSystem];
+    btnl.frame=CGRectMake(100, 50, 83, 50);
+    [btnl setTitle:@"右右右右" forState:UIControlStateNormal];
+    [btnl addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btnl];
+}
+
+- (void)btnClick
+{
+    [[MainScrollViewController getMain] showView:1];
 }
 
 - (void)hiddenMusicControl:(BOOL)bHidden

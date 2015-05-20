@@ -12,7 +12,6 @@
 		73317CFC1B044C9F007C32B0 /* SlideViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73317CFB1B044C9F007C32B0 /* SlideViewTests.m */; };
 		73317CFF1B044C9F007C32B0 /* SlideView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73317CE81B044C9E007C32B0 /* SlideView.framework */; };
 		73317D001B044C9F007C32B0 /* SlideView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 73317CE81B044C9E007C32B0 /* SlideView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		73317D111B044DCF007C32B0 /* MainScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73317D101B044DCF007C32B0 /* MainScrollViewController.m */; };
 		73317D151B044FAB007C32B0 /* MainScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73317D0F1B044DCF007C32B0 /* MainScrollViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73317D161B04514F007C32B0 /* MainScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73317D101B044DCF007C32B0 /* MainScrollViewController.m */; };
 		7481BEF519767FAE00D322BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7481BEF419767FAE00D322BA /* Foundation.framework */; };
@@ -480,7 +479,6 @@
 			files = (
 				7481BF2B1976802B00D322BA /* SubViewController.m in Sources */,
 				74EE5D9C1976ED9400A8FC29 /* PlayBoxViewController.m in Sources */,
-				73317D111B044DCF007C32B0 /* MainScrollViewController.m in Sources */,
 				7481BF281976801F00D322BA /* HomePageVIewController.m in Sources */,
 				7481BF0519767FAE00D322BA /* AppDelegate.m in Sources */,
 				7481BF0119767FAE00D322BA /* main.m in Sources */,
@@ -799,6 +797,7 @@
 				73317D021B044C9F007C32B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73317D071B044C9F007C32B0 /* Build configuration list for PBXNativeTarget "SlideViewTests" */ = {
 			isa = XCConfigurationList;
@@ -807,6 +806,7 @@
 				73317D041B044C9F007C32B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7481BEEC19767FAE00D322BA /* Build configuration list for PBXProject "MusicApp" */ = {
 			isa = XCConfigurationList;
